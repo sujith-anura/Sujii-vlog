@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://icono-49d6.kxcdn.com/icono.min.css">
+</head>
+<body>
+    
+    <div class="portfolio">
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><ion-icon name="arrow-up"></ion-icon></button>
+        <header>
+            <nav class="navigation">
+                <h2 class="logo"><i style="font-family: segoe script;">Explore</i>Sri<span>Lanka</span></h2>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#exp">Experiences</a></li>
+                    <li><a href="#footer">Contact</a></li>
+                </ul>
+                <button class="btnLogin-popup">Login</button>
+            </nav>
+        </header>
+
+        <div class="content">
+            <h1>Capital City of <span>Sabaragamuwa</span></h1>
+            <h3>Explore the nature of Ratnapura</h3>
+        </div>
+        <div class="popup">
+            <button id="close">&times;</button>
+            <p>
+                For more details about Ratnapura click the above button and login
+            </p>
+        </div>
+    
+        <div class="wrapper">
+            <span class="icon-close"><ion-icon name="close"></ion-icon></span>
+    
+            <div class="form-box login">
+                <h2>Login</h2>
+                <form action="loginaction.php" method="post">
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="person"></ion-icon></span>
+                        <input type="text" name="person" required>
+                        <label>User Name</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                        <input type="password" name="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox"> Remember me</label>
+                        <a href="#">Forgot Password ?</a>
+                    </div>
+                    <button type="submit"class="btn">Login</button>
+                    <div class="login-register">
+                        <p>Don't have an account ? <a href="#" class="register-link">Register</a></p>
+                    </div>
+                </form>
+            </div>
+    
+            <div class="form-box register">
+                <h2>Registration</h2>
+                <form action="registeraction.php" method="post">
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="person"></ion-icon></span>
+                        <input type="text" name="uname" required>
+                        <label>User Name</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                        <input type="email" name="mail" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                        <input type="password" name="pswd" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox"> I agree to the terms & conditions</label>
+                    </div>
+                    <button type="submit"class="btn">Register</button>
+                    <div class="login-register">
+                        <p>Already have an account ? <a href="#" class="login-link">Login</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+    </div>
+    
+    <section id="about">
+        <div class="main">
+            
+            <div class="atext">
+                <h2 style="color: yellow;">Ratnapura</h2>
+                <h5>The <b style="color: aqua; font-size: larger; ">Gem</b> city of <span style="color: white;">Sri Lanla</span></h5>
+
+                
+                <div class="slider">
+                    <div class="slides">
+                        <input type="radio" name="radio-btn" id="radio1">
+                        <input type="radio" name="radio-btn" id="radio2">
+                        <input type="radio" name="radio-btn" id="radio3">
+                        <input type="radio" name="radio-btn" id="radio4">
+
+                        <div class="slide first">
+                            <img src="ba1.png" alt="propic">
+                        </div>
+                        <div class="slide">
+                            <img src="ba2.png" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="ba3.png" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="ba4.png" alt="">
+                        </div>
+                       
+                        
+                        
+                    </div>
+                    <div class="manual">
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                        <label for="radio4" class="manual-btn"></label>
+                    </div>
+                   
+                </div>
+        
+                <p>The name 'Ratnapura' is a Sanskrit word meaning "city of gems", from the Sanskrit words pura (town) and ratna (gemstone). Over 2000 years ago, when the first Buddhist monks arrived here from the north eastern provinces of India namely Bodh-Gaya, Varanasi and Pataliputra, they not only brought with them the Buddhist religion, but since their teachings were mainly in Sanskrit and Pali they also influenced the local language. While candy produced from the jaggery palm is traditionally known in this region as ratnapura, it is more likely that the candy was named for the locale rather than vice versa.
+
+                    It is the centre of a long-established industry of precious stone mining including rubies, sapphires, and other gems. Apart from gem mining, the city is known for the production of rice and fruit. Large plantations of tea and rubber surround the city. Tea grown in this region is called low-country tea. There is a well-established tourism industry in Ratnapura. Nearby Sinharaja Forest Reserve, Udawalawe National Park, Kitulgala, and Adam's Peak are especially popular among tourists.
+                    
+                    In 1901, the town of Ratnapura had a population of 4,084, and by 2012, it had increased to 46,229, with Buddhists, Hindus, Christians and Muslims each constituting a significant portion of the population.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <div id="exp">
+        <div class="title">
+            <h2>Experiences</h2>
+        </div>
+
+        <div class="box">
+            <div class="sec1">
+                <h5>Adam's peak</h5>
+                <p>The peak is situated 2243 meters high from Ratnapura city. It is considered to be 
+                    a holy mountain by 4 religions namely, Hindus, Buddhists, Catholics, and Islam. 
+                    Sri Pada or the sacred footprint name is given by the Buddhists.</p>
+            </div>
+
+            <div class="sec2">
+                <h5>Maha Saman Dewalaya</h5>
+                <p>It is Buddhist temple which is situated 4km northwest of the city and is an architectural treasure. 
+                    It is a shrine that is totally dedicated to the god Saman. Constructed in the 13th century, this ancient shrine was
+                     destroyed by the Portuguese when they captured the city, but after the Kandyan Kingdom won the city back, the shrine was built again.</p>
+            </div>
+
+            <div class="sec3">
+                <h5>Bopath Ella waterfall</h5>
+                <p>Bopath Ella is a waterfall situated in the Ratnapura District of Sri Lanka. It has a shape very similar
+                     to the leaf of the Sacred fig or "Bo" tree, which has earned it this name. The waterfall is a major tourist attraction in the country.</p>
+            </div>
+
+            <div class="sec4">
+                <h5>Ratnapura National Museum</h5>
+                <p>The National Museum of Ratnapura is one of the national museums of Sri Lanka. It is located in Ratnapura, Sri Lanka and it was opened on 13 May 1988.</p>
+            </div>
+        </div>
+        <div class="dynamic">
+            <button id="show" onclick="show()">More details</button>
+            <p id="demo1"></p>
+            <p id="demo2"></p>
+            <div id="more">
+                <h3>Another Experiences</h3>
+
+                <p><b>Sinharaja rain forest: </b>Sinharaja Forest Reserve is a biodiversity hotspot in the Ratnapura region. It is a National Park, which is considered as a world heritage site by UNESCO. It is a great part of eco-tourism in Sri Lanka. Sinharaja Forest Reserve has one of the few virgin forests that are left in the world and this site is one of the rarest places comprising of virgin rainforests left till date. </p>
+
+                <p><b>Katugas Ella waterfall: </b> beautiful waterfalls are 6 meters high and are located 3 km away to the north of the Ratnapura city in Sri Lanka. The falls are quite scenic and amazing and are surrounded by many eating shops.</p>
+
+                <p><b>Sri Sankapala Rajamaha Viharaya: </b>The ancient cave temple is found in the Ratnapura city. The majestic temple is located on a rocky mountain and includes a variety of trees with a total number of 14 caves which you can enjoy with your family and friends. Have a great time exploring this wonderful place on your next Sri Lankan tour.</p>
+
+                                        
+                <div class="hidebtn">
+                    <button id="hide" onclick="hide()">Hide details</button>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <p><i style="font-family: segoe script;">Explore</i>Sri<span>Lanka</span></p>
+        <div class="social">
+            <a href="https://www.facebook.com/" target="_blank"><i class="icono-facebook"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="icono-instagram"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="icono-linkedIn"></i></a>
+        </div>
+        <p class="email"><span><b>Email: </b></span>exploresrilankaproject@gmail.com</p>
+        <p class="last">CopyRight by Explore Sri Lanka</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
